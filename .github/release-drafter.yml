@@ -2,7 +2,11 @@ name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
 
 template: |
+  ## 👀📝 For Release Drafter (DELETE ME BEFORE PUBLISHING)
+  https://github.com/camillevilla/release-drafter-test/compare/$PREVIOUS_TAG...master
+
   ## What’s Changed
+
   https://github.com/camillevilla/release-drafter-test/compare/$PREVIOUS_TAG...v$NEXT_PATCH_VERSION
 
   $CHANGES
