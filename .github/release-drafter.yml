@@ -3,7 +3,14 @@ tag-template: 'v$NEXT_PATCH_VERSION'
 
 template: |
   ## 👀📝 For Release Drafter (DELETE ME BEFORE PUBLISHING)
-  https://github.com/camillevilla/release-drafter-test/compare/$PREVIOUS_TAG...master
+  - [ ] Review changes: https://github.com/camillevilla/release-drafter-test/compare/$PREVIOUS_TAG...master
+  - [ ] Is this a major, minor, or patch release?
+    - [ ] PR for bumping version number
+    - [ ] Update release notes title 
+  - [ ] Delete this checklist
+  - [ ] Publish GitHub release
+  - [ ] Push release to RubyGems
+  - [ ] Post to Slack channel
 
   ## What’s Changed
 
@@ -11,5 +18,5 @@ template: |
 
   $CHANGES
 
-  THANKS FOR THESE HELPFUL MESSAGES!!!
+  Thank you to all of the contributors for this release!!! 🥇
   $CONTRIBUTORS
